@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(to bottom, #B2C8BA 50%, #D2E3C8 50%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+*{
+  font-family:"Poppins",sans-serif;
+}
+h1 {
+  text-align: center;
+  color: rgb(232, 237, 238);
+  margin: 10vh 0 0 0;
+  font-family:"Poppins",sans-serif;
+  font-size: 3rem;
+  animation: rainbow 5s infinite ease-in;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+table {
+  width: 80%;
+  margin: 40px auto;
+
+  background-color: #86A789;
+}
+
+table.list {
+  text-align: center;
+  width: 100%;
+}
+
+td {
+  border: 1px solid rgb(17, 17, 17);
+  text-align: left;
+  padding: 8px 15px;
+}
+
+tr:nth-child(even),
+table.list thread > tr {
+  background-color: #d0f1bf;
+}
+
+input[type="text"] {
+  width: 91%;
+  padding: 10px 10px;
+  margin: 0px 0 10px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background: #eee;
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+  background: #fdfdfd;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background: #474350;
+  color: white;
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+
+tbody {
+  font-family: cursive;
+}
+
+.input-part {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+}
+
+button {
+  background: #D2E3C8;
+  color: black;
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.list{
+  background-color: #B2C8BA;
+  border-radius: 4px;
+}

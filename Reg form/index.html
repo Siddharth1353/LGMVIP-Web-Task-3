@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js" defer> </script>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div class="container center">
+        <table>
+            <tr>
+                <td>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label>Full Name*:</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                            <input type="text" name="fullName" id="fullName">
+                        </div>
+                        <div>
+                            <label>State:</label>
+                            <input type="text" name="city" id="city">
+                        </div>
+                        <div>
+                            <label>Contact No:</label>
+                            <input type="text" name="mobile" id="mobile">
+                        </div>
+                        <div>
+                            <label>Email Id:</label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <div>
+                            <label>DOB:</label>
+                            <input type="text" name="dob" id="dob">
+                        </div>
+                        <div>
+                            <label>Gender:</label>
+                            <input type="text" name="gender" id="gender">
+                        </div>
+                        <div>
+                            <label>Course:</label>
+                            <input type="text" name="course" id="course">
+                        </div>
+    
+                        <div  class="form-action-buttons">
+                            <input type="submit" value="Register">
+                        </div>
+    
+                    </form>
+
+                <td>
+                    <table class="list" id="studentList">
+                        <thead>
+                            <h2>Student Details</h2>
+                        <tr>
+                            <th>Full Name </th>
+                            <th>State </th>
+                            <th>Contact No </th>
+                            <th>Email Id </th>
+                            <th>DOB </th>
+                            <th>Gender </th>
+                            <th>Course </th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
